@@ -1,0 +1,24 @@
+1.- Crear Repositorio LOCAL
+git init
+
+2.- Subir los cambios al escenario
+git add . 
+git status para si todo esta en verde. o listo para subir los cambios. 
+
+3.- saco una foto a los cambios.
+git commit -m "primer commit"
+
+4.-  crear repositorio REMOTO en GitHub, desde el navegador de internet
+
+5.-  copiar el link de creacion de vinculo con el repositorio remoto que acabos de crear en github.
+git remote add origin https://github.com/XXXXXXXX/XXXXXXXXX.git
+
+6.-  copiar todos los cambios repositorio LOCAL al REMOTO
+git push -u origin master
+
+
+CICLO:
+
+git add .  
+git commit -m "explicacion cambios" 
+git push
