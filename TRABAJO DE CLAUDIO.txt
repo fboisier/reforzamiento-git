@@ -1,0 +1,7 @@
+se crea funcion saluda.
+
+function saluda() {
+
+	return "HOLA"; 
+
+}
