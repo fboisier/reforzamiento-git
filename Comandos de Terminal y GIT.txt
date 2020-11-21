@@ -114,3 +114,11 @@ git remote add <nombreremoto> <url>  // agrega vinculo repositorio remoto a la c
 
 
 rm -Rf .git    //   ELIMINA LA CARPETA OCULTA .git . por lo tanto elimina el repositorio.
+
+
+
+COMO ELIMINAR O VOLVER A UN COMMIT Y ACTUALIZAR EN REPOSITORIO REMOTO:
+git reset --hard <id commi>  // volvermos a dejar todo tal cual como estaba en ese commit
+git push <repo_remoto> -f    // fuerza  a que el repositorio repoto se actualice tal cual como tenemos ahora nuestro repositorio local.  
+
+
